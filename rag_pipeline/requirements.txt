@@ -1,0 +1,30 @@
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-core>=0.1.0
+
+transformers>=4.35.0
+torch>=2.0.0
+langchain-huggingface>=0.0.6
+
+# Memory optimization
+accelerate>=0.24.0
+bitsandbytes>=0.41.0
+safetensors>=0.4.0
+
+# Vector database dependencies
+chromadb>=0.4.0
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.0
+
+# Document processing
+langchain-community[pdf]>=0.0.10
+pypdf>=3.15.0
+
+# Utilities
+tqdm>=4.65.0
+numpy>=1.24.0
+psutil>=5.9.0 
